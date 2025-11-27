@@ -1,40 +1,66 @@
-🛒 E-Commerce App (React + Redux Toolkit)
+# 🛒 E-Commerce App (React + Redux Toolkit)
 
-A modern demo E-Commerce Web App built using React, Redux Toolkit, and Bootstrap.
+[![React](https://img.shields.io/badge/React-18.2.0-blue?logo=react)](https://reactjs.org/) 
+[![Redux Toolkit](https://img.shields.io/badge/Redux_Toolkit-1.9.5-purple?logo=redux)](https://redux-toolkit.js.org/) 
+[![Bootstrap](https://img.shields.io/badge/Bootstrap-5.3.2-purple?logo=bootstrap)](https://getbootstrap.com/) 
+[![Vite](https://img.shields.io/badge/Vite-5.3.12-lightgrey?logo=vite)](https://vitejs.dev/) 
+
+A modern demo **E-Commerce Web App** built using React, Redux Toolkit, and Bootstrap.  
 This project showcases product listing, cart management, state handling, UI design, and essential e-commerce workflows — all without a backend.
 
-Live Demo (GitHub Pages):
-Coming soon…
+[🌐 Live Demo (GitHub Pages)](https://nirajj87.github.io/e-commerce-with-react)
 
-🚀 Features
+---
 
-✔️ Fetches products from Free Public API
-✔️ Add to cart / Remove from cart
-✔️ Increase / Decrease quantity
-✔️ Cart total, tax, and price calculation
-✔️ Global state management via Redux Toolkit
-✔️ Modern UI with React + Bootstrap
-✔️ Data persists using LocalStorage
-✔️ Fully responsive design
-✔️ Clean folder structure for scalability
+## 📸 Screenshots
 
-🛠️ Tech Stack
-Technology	Version	Usage
-React	Latest	UI Components & rendering
-Redux Toolkit	Latest	Global State Management
-React Redux	Latest	Redux bindings for React
-Bootstrap	5.x	UI & responsive layout
-Vite	Latest	Fast development server
-LocalStorage	—	Cart persistence
-Free Fake Store API	—	Product listing
-📦 Installation
+<div align="center">
+  <img src="https://github.com/nirajj87/e-commerce-with-react/blob/main/public/images/home.png" width="250" />
+  <img src="https://github.com/nirajj87/e-commerce-with-react/blob/main/public/images/home2.png" width="250" />
+  <img src="https://github.com/nirajj87/e-commerce-with-react/blob/main/public/images/cart.png" width="250" />
+  <img src="https://github.com/nirajj87/e-commerce-with-react/blob/main/public/images/checkout.png" width="250" />
+  <img src="https://github.com/nirajj87/e-commerce-with-react/blob/main/public/images/paymentmethod.png" width="250" />
+  <img src="https://github.com/nirajj87/e-commerce-with-react/blob/main/public/images/payment.png" width="250" />
+  <img src="https://github.com/nirajj87/e-commerce-with-react/blob/main/public/images/order.png" width="250" />
+</div>
+
+---
+
+## 🚀 Features
+
+- Fetches products from Free Public API  
+- Add to cart / Remove from cart  
+- Increase / Decrease quantity  
+- Cart total, tax, and price calculation  
+- Global state management via Redux Toolkit  
+- Modern UI with React + Bootstrap  
+- Data persists using LocalStorage  
+- Fully responsive design  
+- Clean folder structure for scalability  
+
+---
+
+## 🛠️ Tech Stack
+
+| Technology       | Version | Usage                         |
+|-----------------|--------|-------------------------------|
+| React            | Latest | UI Components & rendering     |
+| Redux Toolkit    | Latest | Global State Management       |
+| React Redux      | Latest | Redux bindings for React      |
+| Bootstrap        | 5.x    | UI & responsive layout        |
+| Vite             | Latest | Fast development server       |
+| LocalStorage     | —      | Cart persistence              |
+| Free Fake Store API | —    | Product listing              |
+
+---
+
+## 📦 Installation
 
 Clone repo:
 
+```bash
 git clone https://github.com/nirajj87/e-commerce-with-react.git
 cd e-commerce-with-react
-
-
 Install dependencies:
 
 npm install
@@ -51,12 +77,12 @@ Install:
 npm install gh-pages --save-dev
 
 
-package.json me add kare:
+Add in package.json:
 
 "homepage": "https://nirajj87.github.io/e-commerce-with-react",
 
 
-Scripts add kare:
+Add scripts:
 
 "predeploy": "npm run build",
 "deploy": "gh-pages -d dist"
@@ -98,11 +124,12 @@ No backend is used.
 
 Niraj Kumar Singh
 Full-Stack Developer
-🔗 Portfolio: https://devsupport.co.in/profile/
 
-🔗 GitHub: https://github.com/nirajj87
+🔗 Portfolio: devsupport.co.in
 
-🔗 LinkedIn: https://www.linkedin.com/in/niraj-kumar-singh-1309b3a6/
+🔗 GitHub: nirajj87
+
+🔗 LinkedIn: Niraj Kumar Singh
 
 📧 Email: nirajkumar11288@gmail.com
 
