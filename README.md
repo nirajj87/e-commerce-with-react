@@ -8,7 +8,7 @@
 A modern demo **E-Commerce Web App** built using React, Redux Toolkit, and Bootstrap.  
 This project showcases product listing, cart management, state handling, UI design, and essential e-commerce workflows — all without a backend.
 
-[🌐 Live Demo (GitHub Pages)](https://nirajj87.github.io/e-commerce-with-react)
+[🌐 Live Demo (GitHub Pages)](https://devsupport.co.in/ecommerce)
 
 ---
 
