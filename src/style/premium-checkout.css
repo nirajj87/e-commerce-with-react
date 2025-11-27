@@ -1,0 +1,11 @@
+/* Demo checkout & modal styles (add to your CSS file) */
+.demo-modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.55);display:flex;align-items:center;justify-content:center;z-index:9999}
+.demo-modal{width:420px;background:#fff;padding:20px;border-radius:12px;box-shadow:0 18px 50px rgba(2,6,23,0.12)}
+.demo-brand{background:#0d6efd;color:#fff;padding:6px 10px;border-radius:8px;font-weight:700}
+.demo-summary{background:#f8f9fb;border-radius:8px;padding:10px}
+.payment-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.6);display:flex;align-items:center;justify-content:center;z-index:9998}
+.payment-box{width:360px;background:#fff;padding:18px;border-radius:12px;box-shadow:0 14px 50px rgba(2,6,23,0.12)}
+.fly-to-order{position:fixed;width:90px;height:90px;border-radius:12px;object-fit:cover;z-index:99999;transition:transform .9s cubic-bezier(.22,.9,.34,1),opacity .9s}
+.card{border-radius:12px}
+.btn-close{width:36px;height:36px;border-radius:8px;border:none;background:#f1f1f1}
+.small.text-muted{color:#6b7280}
